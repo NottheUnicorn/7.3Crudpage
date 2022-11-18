@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Inventory Crud</title>
+	<script src="main.js"></script>
+</head>
+<body>
+    
+</body>
+</html>
+<html>
+
+<head>
+    <title>
+        Car Inventory Crud
+    </title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <table>
+        <tr>
+            <td>
+                <form onsubmit="onFormSubmit()" action="javascript:void 0">
+                    <div>
+                        <label>Model</label><label class="validation-error hide" id="fullNameValidationError">This field is required.</label>
+                        <input type="text" name="make" id="make">
+                    </div>
+                    <div>
+                        <label>Model</label>
+                        <input type="text" name="model" id="model">
+                    </div>
+                    <div>
+                        <label>Year</label>
+                        <input type="text" name="year" id="year">
+                    </div>
+                    <div>
+                        <label>Price</label>
+                        <input type="text" name="Price" id="price">
+                    </div>
+                    <div  class="form-action-buttons">
+                        <input type="submit" value="Submit">
+                    </div>
+                </form>
+            </td>
+            <td>
+                <table class="list" id="inventorylist">
+                    <thead>
+                        <tr>
+                            <th>Make</th>
+                            <th>Model</th>
+                            <th>Year</th>
+                            <th>Price</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody id="inventorylistBody">
+
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+    </table>
+   
+</body>
+
+</html>
